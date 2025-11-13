@@ -50,9 +50,58 @@
     }
 
   </style>
-</head>
-<body>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
+    /* Sidebar style */
+    .sidebar {
+      height: 100vh;
+      width: 220px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #2c3e50;
+      padding-top: 20px;
+    }
+
+    /* Sidebar links */
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .sidebar a:hover {
+      background-color: #34495e;
+    }
+
+    /* Main content */
+    .main-content {
+      margin-left: 230px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+ <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="https://studybank.github.io/home/">🏠 Home</a>
+    <a href="#about">📖 About</a>
+    <a href="#services">🛠 Services</a>
+    <a href="#gallery">🖼 Gallery</a>
+    <a href="#contact">📞 Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Welcome to My Website</h1>
+    <h1><p>SCHOOL PROGRAM.</p></h1>
+  </div>
   <div class="slideshow-container">
     <div class="slide active">
       <img src="photo1.jpg" alt="Photo 1">
